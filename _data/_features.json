@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Responsive Design",
+        "image": "/static/uploads/responsive-design.svg",
+        "description": "Today, more than half of a website's traffic is from mobile devices. Is your website mobile-friendly?\n\nBy using modern tools and technologies, we guarantee your website will look good across **all** screen sizes&mdash;from large desktop and laptop screens to tablets and mobile devices."
+    },
+    {
+        "title": "Custom Solutions",
+        "image": "/static/uploads/custom-solutions.svg",
+        "description": "Sometimes you need to custom functionality on your site that other rigid DIY website services can't provide. From custom e-commerce sites with custom payment options to personally tailored blogs, Brightside Tech can help you develop the technology you need."
+    },
+    {
+        "title": "Technology Consulting",
+        "image": "/static/uploads/consulting.svg",
+        "description": "We know technology and we are eager to help. Can't decide on a web hosting provider that is best for you? Unsure of what an SSL certificate is and whether or not your site needs one? Ask us!"
+    },
+    {
+        "title": "Performance",
+        "image": "/static/uploads/performance.svg",
+        "description": "It is a fact that poor performance leads to low search engine rankings and decreased conversion rates. By optimizing file sizes using modern tools and conventions and through clean software development, we can guarantee faster load times :rocket:"
+    },
+    {
+        "title": "Data Analytics",
+        "image": "/static/uploads/data-analytics.svg",
+        "description": "Harness the power of data to grow your business.  To maximize conversion rates, we can use data analytics to help you identify what parts of your site are receiving user attention and re-design those parts that are not."
+    },
+    {
+        "title": "Superhero Service",
+        "image": "/static/uploads/superhero.svg",
+        "description": "We want to make sure you are 100% satisfied with our work.  As a small team, we take on only a few projects at a time, so you can rest assured that your project will receive our full attention and dedication."
+    }
+]

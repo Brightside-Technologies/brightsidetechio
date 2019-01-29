@@ -1,6 +1,7 @@
 import Section from "./Section";
 import SectionTitle from "./SectionTitle";
 import ColumnsWrap from "./ColumnsWrap";
+import ReactMarkdown from "react-markdown";
 import styled from "styled-components";
 import _features from "../_data/_features";
 
@@ -24,7 +25,9 @@ export default function WhoWeAre() {
                             </div>
                             <div className="card-content">
                                 <p className="has-text-centered title is-4">{feature.title}</p>
-                                <div className="content">{feature.description}</div>
+                                <div className="content">
+                                    <ReactMarkdown source={feature.description} />
+                                </div>
                             </div>
                         </Card>
                     </div>

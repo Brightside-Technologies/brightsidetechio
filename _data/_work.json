@@ -1,14 +1,14 @@
 [
     {
         "title": "Allyson Jeffredo's Website",
-        "image": "static/uploads/allysonjeffredodotcom.png",
+        "image": "/static/uploads/allysonjeffredodotcom.png",
         "url": "https://allysonjeffredo.com",
         "description": "Personal Website + Blog",
         "services": ["web development", "devops", "CMS integration"]
     },
     {
         "title": "DJ Boots Productions",
-        "image": "static/uploads/djbootsproddotcom.png",
+        "image": "/static/uploads/djbootsproddotcom.png",
         "url": "https://djbootsprod.com",
         "description": "Improve online presence and increase leads conversions",
         "services": ["web development", "devops"]

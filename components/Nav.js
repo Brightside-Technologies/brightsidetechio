@@ -27,7 +27,7 @@ class Nav extends React.Component {
                 <div className="navbar-brand">
                     <Link href="/">
                         <a className="navbar-item">
-                            <NavbarLogo src="./static/logo-white.png" />
+                            <NavbarLogo src="/static/logo-white.png" />
                         </a>
                     </Link>
                     <a

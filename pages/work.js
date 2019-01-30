@@ -1,13 +1,17 @@
 import MainLayout from "../containers/MainLayout";
 import PageTitle from "../components/PageTitle";
+import Section from "../components/Section";
+import ProjectMedia from "../components/ProjectMedia";
 import AttentionBanner from "../components/AttentionBanner";
+
+import _work from "../_data/_work.json";
 
 export default function WorkPage() {
     return (
         <MainLayout>
-            <section className="section">
+            <Section>
                 <PageTitle title="Work" />
-                <div className="container content is-medium">
+                <div className="content is-medium">
                     <p>
                         The Owl always takes her sleep during the day. Then after sundown, when the
                         rosy light fades from the sky and the shadows rise slowly through the wood,
@@ -16,7 +20,12 @@ export default function WorkPage() {
                         for the bugs and beetles, frogs and mice she likes so well to eat.
                     </p>
                 </div>
-            </section>
+            </Section>
+            <Section>
+                {_work.map((work, i) => (
+                    <ProjectMedia key={i} {...work} />
+                ))}
+            </Section>
         </MainLayout>
     );
 }

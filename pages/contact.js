@@ -15,6 +15,11 @@ const Diagonal = styled.svg`
     margin-top: -350px;
     position: relative;
     z-index: 1;
+    width: 100%;
+    height: 350px;
+    polygon {
+        fill: #fded13;
+    }
 `;
 
 export default function ContactPage() {
@@ -43,13 +48,8 @@ export default function ContactPage() {
                         </ContactForm>
                     </div>
                 </div>
-                <Diagonal
-                    width="100%"
-                    height="350px"
-                    class="diagonal"
-                    viewBox="0 0 100 100"
-                    preserveAspectRatio="none">
-                    <polygon fill="#fded13" points="0,0 0,200 50,100 200,100" />
+                <Diagonal viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <polygon points="0,0 0,100 50,100 150,100" />
                 </Diagonal>
             </div>
         </MainLayout>

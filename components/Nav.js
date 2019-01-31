@@ -48,14 +48,6 @@ class Nav extends React.Component {
                     className={`navbar-menu ${isNavbarOpen ? "is-active" : ""}`}>
                     <div className="navbar-start" />
                     <div className="navbar-end">
-                        <Link href="/team">
-                            <a
-                                className={`navbar-item is-uppercase ${
-                                    router.pathname === "/team" ? "is-active" : ""
-                                }`}>
-                                Team
-                            </a>
-                        </Link>
                         <Link href="/work">
                             <a
                                 className={`navbar-item is-uppercase ${
@@ -64,6 +56,14 @@ class Nav extends React.Component {
                                 Work
                             </a>
                         </Link>
+                        {/* <Link href="/team">
+                            <a
+                                className={`navbar-item is-uppercase ${
+                                    router.pathname === "/team" ? "is-active" : ""
+                                }`}>
+                                Team
+                            </a>
+                        </Link> */}
                         <Link href="/contact">
                             <div className="navbar-item">
                                 <a

@@ -22,7 +22,7 @@ const Content = styled.div`
 const Row = styled.div`
     padding: 16px 0;
     &:not(:last-child) {
-        border-bottom: 1px solid rgba(219, 219, 219, 0.5);
+        border-bottom: 2px solid rgba(219, 219, 219, 0.5);
     }
 `;
 
@@ -42,8 +42,10 @@ export default function ProjectMedia(props) {
                     <div>
                         <p className="heading has-text-weight-bold">Services</p>
                         <div className="tags">
-                            {services.map(service => (
-                                <div className="tag is-dark">{service}</div>
+                            {services.map((service, i) => (
+                                <div key={i} className="tag is-dark">
+                                    {service}
+                                </div>
                             ))}
                         </div>
                     </div>

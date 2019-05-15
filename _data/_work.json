@@ -1,5 +1,12 @@
 [
     {
+        "title": "Boys & Girls Clubs of Coachella Valley",
+        "image": "/static/uploads/bgcofcvdotcom.png",
+        "url": "https://bgcofcv.netlify.com",
+        "description": "Modernize website layout",
+        "services": ["web development", "devops", "CMS integration"]
+    },
+    {
         "title": "Allyson Jeffredo's Website",
         "image": "/static/uploads/allysonjeffredodotcom.png",
         "url": "https://allysonjeffredo.com",

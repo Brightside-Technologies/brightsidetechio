@@ -1,9 +1,0 @@
-{
-    "version": 2,
-    "name": "brightsidetech.io",
-    "alias": "brightsidetech.io",
-    "builds": [
-        {"src": "static/**/*", "use": "@now/static"},
-        {"src": "next.config.js", "use": "@now/next"}
-    ]
-}

@@ -1,4 +1,4 @@
-import "../styles/site.scss";
+import Link from "next/link";
 import styled from "styled-components";
 
 const Hero = styled.div`
@@ -24,11 +24,14 @@ export default function HomeHero() {
                         Modern Technology Solutions
                     </h1>
                     <h2 className="subtitle has-text-dark has-text-darker is-uppercase animated fadeInDown">
-                        Providing digital transformation services for the small business community
+                        Providing digital transformation services for the small
+                        business community
                     </h2>
-                    <a className="button shadow is-uppercase is-large is-primary has-text-dark is-rounded has-text-weight-bold">
-                        Find Out More
-                    </a>
+                    <Link href="/contact">
+                        <a className="button shadow is-uppercase is-large is-primary has-text-dark is-rounded has-text-weight-bold">
+                            Find Out More
+                        </a>
+                    </Link>
                 </div>
             </div>
         </Hero>

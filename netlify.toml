@@ -1,3 +1,7 @@
 [build]
-publish = "out"
-command = "npm run export"
+    publish = "out"
+    command = "npm run export"
+[[redirects]]
+    from = "https://brightsidetech.netlify.com/*"
+    to = "https://brightsidetech.io/:splat"
+    status = 301

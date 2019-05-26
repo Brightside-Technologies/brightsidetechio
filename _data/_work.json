@@ -1,22 +1,22 @@
 [
     {
         "title": "Boys & Girls Clubs of Coachella Valley",
-        "image": "/static/uploads/bgcofcvdotcom.png",
-        "url": "https://bgcofcv.netlify.com",
-        "description": "Modernize website layout",
+        "image": "/static/uploads/bgcofcvdotorg.png",
+        "url": "https://www.bgcofcv.org",
+        "description": "Modernize website layout and technology stack",
         "services": ["web development", "devops", "CMS integration"]
     },
     {
         "title": "Allyson Jeffredo's Website",
         "image": "/static/uploads/allysonjeffredodotcom.png",
-        "url": "https://allysonjeffredo.com",
+        "url": "https://www.allysonjeffredo.com",
         "description": "Personal Website + Blog",
         "services": ["web development", "devops", "CMS integration"]
     },
     {
         "title": "DJ Boots Productions",
         "image": "/static/uploads/djbootsproddotcom.png",
-        "url": "https://djbootsprod.com",
+        "url": "https://www.djbootsprod.com",
         "description": "Improve online presence and increase leads conversions",
         "services": ["web development", "devops"]
     }

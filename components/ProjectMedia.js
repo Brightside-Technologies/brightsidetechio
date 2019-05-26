@@ -27,7 +27,7 @@ const Row = styled.div`
 `;
 
 export default function ProjectMedia(props) {
-    const {title, image, description, url, services} = props;
+    const { title, image, description, url, services } = props;
     return (
         <Row className="columns">
             <div className="column is-one-quarter">
@@ -56,7 +56,7 @@ export default function ProjectMedia(props) {
                         href={url}
                         target="blank"
                         rel="noopener"
-                        className="button shadow-sm has-text-dark is-primary">
+                        className="button is-small shadow-sm has-text-dark is-primary is-uppercase has-text-weight-bold">
                         Check it out
                     </a>
                 </div>

@@ -18,22 +18,45 @@ const Hero = styled.div`
     }
 `;
 
+const CallToAction = styled.a`
+    margin: 1rem 0;
+`;
+
 export default function HomeHero() {
     return (
         <Hero className="hero is-fullheight is-fullheight-with-navbar">
             <div className="hero-body">
-                <div className="container has-text-centered">
-                    <h1 className="is-family-sans-serif mb-5 title has-text-grey-darker is-1 animated fadeInUp">
+                <div className="container">
+                    {/* <h1 className="is-family-sans-serif mb-5 title has-text-grey-darker is-1 animated fadeInUp">
                         Modern Technology Solutions
                     </h1>
                     <h2 className="subtitle has-text-dark has-text-darker is-uppercase animated fadeInDown">
                         Providing digital transformation services for the small
                         business community
-                    </h2>
+                    </h2> */}
+                    <div className="columns">
+                        <div className="column is-two-thirds">
+                            <h1 className="is-family-sans-serif title has-text-grey-darker is-1 animated fadeInUp">
+                                Websites done right.
+                            </h1>
+                            {/* <h2 className="subtitle heading is-size-6 has-text-weight-bold has-text-link">
+                        Digital Transformation &amp; Modern Technology Solutions
+                    </h2> */}
+                            <p className="is-size-6">
+                                Let Brightside take your website to the next
+                                level. If you don't have one, we got you, too.
+                                No Wordpress. All custom websites tailored to
+                                fit you and your business's needs. Get a free
+                                consultation today, or take a peak at some of
+                                our previous projects.
+                            </p>
+                        </div>
+                    </div>
+
                     <Link href="/contact">
-                        <a className="button shadow is-uppercase is-large is-primary has-text-dark is-rounded has-text-weight-bold">
+                        <CallToAction className="button shadow is-uppercase is-primary has-text-dark is-rounded has-text-weight-bold">
                             Find Out More
-                        </a>
+                        </CallToAction>
                     </Link>
                 </div>
             </div>

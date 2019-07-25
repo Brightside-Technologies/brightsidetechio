@@ -2,15 +2,15 @@ import Link from "next/link";
 import HomeHero from "../components/HomeHero";
 import HomeLayout from "../containers/HomeLayout";
 import AttentionBanner from "../components/AttentionBanner";
-import WhoWeAre from "../components/WhoWeAre";
+import Features from "../components/Features";
 import WhatWeDo from "../components/WhatWeDo";
 
 function HomePage() {
     return (
         <HomeLayout>
             <HomeHero />
-            <WhoWeAre />
             <WhatWeDo />
+            <Features />
             <AttentionBanner>
                 <p className="is-size-3 has-text-centered">
                     Ready to start a new project?

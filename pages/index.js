@@ -21,7 +21,7 @@ function HomePage() {
                 </p>
                 <div className="has-text-centered pt-3">
                     <Link href="/contact">
-                        <a className="button shadow is-uppercase is-outlined is-dark is-rounded has-text-weight-bold">
+                        <a className="button shadow is-uppercase is-outlined has-text-weight-bold">
                             Let's Talk
                         </a>
                     </Link>

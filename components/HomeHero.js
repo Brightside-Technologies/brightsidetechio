@@ -18,10 +18,6 @@ const Hero = styled.div`
     }
 `;
 
-const CallToAction = styled.a`
-    margin: 1rem 0;
-`;
-
 export default function HomeHero() {
     return (
         <Hero className="hero is-fullheight is-fullheight-with-navbar">
@@ -40,9 +36,9 @@ export default function HomeHero() {
                                 Websites done right.
                             </h1>
                             {/* <h2 className="subtitle heading is-size-6 has-text-weight-bold has-text-link">
-                        Digital Transformation &amp; Modern Technology Solutions
-                    </h2> */}
-                            <p className="is-size-6">
+                                Digital Transformation &amp; Modern Technology Solutions
+                            </h2> */}
+                            <p className="is-size-5 animated fadeInUp">
                                 Let Brightside take your website to the next
                                 level. If you don't have one, we got you, too.
                                 No Wordpress. All custom websites tailored to
@@ -54,9 +50,9 @@ export default function HomeHero() {
                     </div>
 
                     <Link href="/contact">
-                        <CallToAction className="button shadow is-uppercase is-primary has-text-dark is-rounded has-text-weight-bold">
+                        <a className="button shadow is-uppercase is-primary has-text-dark has-text-weight-bold animated fadeInUp">
                             Find Out More
-                        </CallToAction>
+                        </a>
                     </Link>
                 </div>
             </div>

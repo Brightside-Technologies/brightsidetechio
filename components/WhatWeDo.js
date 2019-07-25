@@ -4,12 +4,17 @@ import SectionTitle from "./SectionTitle";
 export default function WhatWeDo() {
     return (
         <Section>
-            <SectionTitle title="We are a web development company" />
+            <SectionTitle title="What We Do" />
+            {/* <h1 className="heading is-size-4 is-size-6-mobile has-text-weight-bold has-text-link">
+                We are a web development agency
+            </h1> */}
             <div className="content is-medium">
                 <p>
-                    We build web sites and web applications and provide custom
-                    integrations with external services to give your website
-                    superpowers.
+                    We are a web development agency that provides digital
+                    transformation services and modern technology solutions to
+                    help local, small businesses compete in today's market. We
+                    build websites and web applications and provide custom
+                    integrations to supercharge your online presence.
                 </p>
             </div>
         </Section>

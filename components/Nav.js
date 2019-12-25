@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {withRouter} from "next/router";
+import { withRouter } from "next/router";
 import styled from "styled-components";
 
 const NavbarLogo = styled.img`
@@ -12,13 +12,13 @@ class Nav extends React.Component {
     };
 
     handleToggleNavbar = () => {
-        const {isNavbarOpen} = this.state;
-        this.setState({isNavbarOpen: !isNavbarOpen});
+        const { isNavbarOpen } = this.state;
+        this.setState({ isNavbarOpen: !isNavbarOpen });
     };
 
     render() {
-        const {isNavbarOpen} = this.state;
-        const {router} = this.props;
+        const { isNavbarOpen } = this.state;
+        const { router } = this.props;
         return (
             <nav
                 className="navbar is-dark shadow-sm is-fixed-top"
@@ -27,13 +27,15 @@ class Nav extends React.Component {
                 <div className="navbar-brand">
                     <Link href="/">
                         <a className="navbar-item">
-                            <NavbarLogo src="/static/logo-white.png" />
+                            <NavbarLogo src="/logo-white.png" />
                         </a>
                     </Link>
                     <a
                         onClick={this.handleToggleNavbar}
                         role="button"
-                        className={`navbar-burger burger ${isNavbarOpen ? "is-active" : ""}`}
+                        className={`navbar-burger burger ${
+                            isNavbarOpen ? "is-active" : ""
+                        }`}
                         aria-label="menu"
                         aria-expanded="false"
                         data-target="navbarItemsWrapper">
@@ -45,13 +47,17 @@ class Nav extends React.Component {
 
                 <div
                     id="navbarItemsWrapper"
-                    className={`navbar-menu ${isNavbarOpen ? "is-active" : ""}`}>
+                    className={`navbar-menu ${
+                        isNavbarOpen ? "is-active" : ""
+                    }`}>
                     <div className="navbar-start" />
                     <div className="navbar-end">
                         <Link href="/work">
                             <a
                                 className={`navbar-item is-uppercase ${
-                                    router.pathname === "/work" ? "is-active" : ""
+                                    router.pathname === "/work"
+                                        ? "is-active"
+                                        : ""
                                 }`}>
                                 Work
                             </a>
@@ -68,7 +74,9 @@ class Nav extends React.Component {
                             <div className="navbar-item">
                                 <a
                                     className={`button is-primary is-size-7 has-text-weight-bold has-text-dark is-uppercase ${
-                                        router.pathname === "/contact" ? "is-active" : ""
+                                        router.pathname === "/contact"
+                                            ? "is-active"
+                                            : ""
                                     }`}>
                                     Hire Us
                                 </a>

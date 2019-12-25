@@ -1,21 +1,28 @@
 [
     {
+        "title": "Festival Campgrounds",
+        "image": "/uploads/festivalcampgroundsdotcom.png",
+        "url": "https://www.festivalcampgrounds.com",
+        "description": "Improve user experience and rebuild site with performance in mind",
+        "services": ["web development", "devops", "DNS config"]
+    },
+    {
         "title": "Boys & Girls Clubs of Coachella Valley",
-        "image": "/static/uploads/bgcofcvdotorg.png",
+        "image": "/uploads/bgcofcvdotorg.png",
         "url": "https://www.bgcofcv.org",
         "description": "Modernize website layout and technology stack",
         "services": ["web development", "devops", "CMS integration"]
     },
     {
         "title": "Allyson Jeffredo's Website",
-        "image": "/static/uploads/allysonjeffredodotcom.png",
+        "image": "/uploads/allysonjeffredodotcom.png",
         "url": "https://www.allysonjeffredo.com",
         "description": "Personal Website + Blog",
         "services": ["web development", "devops", "CMS integration"]
     },
     {
         "title": "DJ Boots Productions",
-        "image": "/static/uploads/djbootsproddotcom.png",
+        "image": "/uploads/djbootsproddotcom.png",
         "url": "https://www.djbootsprod.com",
         "description": "Improve online presence and increase leads conversions",
         "services": ["web development", "devops"]

@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Hero = styled.div`
     &::after {
         content: "";
-        background-image: url("./static/bg.jpg");
+        background-image: url("./bg.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

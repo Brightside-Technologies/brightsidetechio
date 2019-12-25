@@ -13,12 +13,10 @@ export default function Footer() {
         <StyledFooter className="footer has-text-light has-background-dark">
             <small>
                 &copy; {getYear(new Date())} Brightside Tech, LLC. &nbsp;
-                <strong className="has-text-light">
-                    Founded with &nbsp;
-                    <i className="has-text-danger fas fa-heart" />
-                    &nbsp; in the Coachella Valley
-                </strong>
             </small>
+            <strong className="has-text-light">
+                Founded with 💖 in the Coachella Valley
+            </strong>
         </StyledFooter>
     );
 }

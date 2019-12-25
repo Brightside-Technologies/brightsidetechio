@@ -1,7 +1,7 @@
-import App, { Container } from "next/app";
+import App from "next/app";
 import Router from "next/router";
 import withGoogleAnalytics from "next-ga";
-import css from "../styles/site.scss";
+import styles from "../styles/site.scss";
 
 class Site extends App {
     static async getInitialProps({ Component, ctx }) {
@@ -14,12 +14,7 @@ class Site extends App {
 
     render() {
         const { Component, pageProps } = this.props;
-        return (
-            <Container>
-                <Component {...pageProps} />
-            </Container>
-        );
+        return <Component {...pageProps} />;
     }
 }
-
-export default withGoogleAnalytics("UA-135519548-1", Router)(Site);
+export default withGoogleAnalytics(process.env.GA_ID, Router)(Site);
